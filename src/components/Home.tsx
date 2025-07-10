@@ -1,4 +1,4 @@
-import Hero from "./Hero"
+
 import Section1 from "./Section-1"
 import Section2 from "./Section-2"
 import Section3 from "./Section-3"

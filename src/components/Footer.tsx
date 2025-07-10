@@ -11,7 +11,7 @@ function Footer() {
     }
 
     return (
-        <footer className='mt-25 px-10 pb-28'>
+        <footer className='mt-15 md:mt-25 px-10 pb-28'>
             <div className="flex flex-col max-w-fit mx-auto">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-x-20 gap-y-10 mx-auto">
                     <ul>

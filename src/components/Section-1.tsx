@@ -1,13 +1,11 @@
-import React from 'react'
-
 function Section1() {
     return (
         <div>
-            <div className="flex">
-                <div className="flex flex-col w-1/2 gap-12 p-12 border-1">
+            <div className="md:flex">
+                <div className="flex flex-col md:w-1/2 gap-5 md:gap-12 p-5 lg:p-12 border-1">
                     <div>
-                        <h2 className="text-white/50">Git-connected Deploys</h2>
-                        <p className="text-2xl font-semibold mt-5">From localhost to https, in seconds. Deploy from Git or your CLI.</p>
+                        <h2 className="text-sm text-white/50">Git-connected Deploys</h2>
+                        <p className="lg:text-2xl font-semibold mt-3 md:mt-5">From localhost to https, in seconds. Deploy from Git or your CLI.</p>
                     </div>
                     <div>
                         <div className="w-80 rounded-md border-2 select-none">
@@ -26,7 +24,7 @@ function Section1() {
                                 <p className="bg-gradient-to-r from-white/10 via-white/5 to-transparent">{`7 \u00A0 })();|`}</p>
                             </div>
                         </div>
-                        <div className="relative -top-6 left-24 w-80 h-45 rounded-md border-2 backdrop-brightness-0 overflow-y-hidden">
+                        <div className="relative -top-6 left-5 lg:left-24 w-80 h-45 rounded-md border-2 backdrop-brightness-0 overflow-y-hidden">
                             <div className="flex select-none">
                                 <div className="flex gap-1 p-2">
                                     <div className="rounded-full bg-red-500 p-1"></div>
@@ -47,10 +45,10 @@ function Section1() {
                     </div>
                 </div>
 
-                <div className="flex flex-col w-1/2 gap-12 p-12 border-1">
+                <div className="flex flex-col md:w-1/2 gap-5 md:gap-12 p-5 md:p-12 border-1">
                     <div>
-                        <h2 className="text-white/50">Collaborative Pre-production</h2>
-                        <p className="text-2xl font-semibold mt-5">Every deploy is remarkable. Chat with your team on real, production-grade UI, not just designs.</p>
+                        <h2 className="text-sm text-white/50">Collaborative Pre-production</h2>
+                        <p className="lg:text-2xl font-semibold mt-3 md:mt-5">Every deploy is remarkable. Chat with your team on real, production-grade UI, not just designs.</p>
                     </div>
                     <div className="flex flex-col gap-5 select-none">
                         <div>

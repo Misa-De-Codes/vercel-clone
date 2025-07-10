@@ -16,9 +16,8 @@ function hero() {
             </div>
 
           </div>
-          <div className="py-24">
-            <h1 className='text-3xl text-center font-bold'>Develop with your favorite tools <br />
-            Launch globally, instantly  Keep pushing </h1>
+          <div className="px-5 py-15 md:py-24 lg:p-24">
+            <h1 className='text-xl md:text-3xl text-center font-bold'>Develop with your favorite tools Launch globally, instantly  Keep pushing </h1>
           </div>
           <hr className='mb-5'></hr>
         </div>

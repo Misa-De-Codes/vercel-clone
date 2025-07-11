@@ -23,7 +23,7 @@ function Section3() {
                         </div >
                         <div className="flex justify-center md:justify-start gap-5">
                             <a href="/" className="p-3 md:px-5 text-xs lg:text-sm font-medium border-1 bg-white text-black hover:bg-white/80 rounded-3xl transition-all delay-75 duration-100 ease-in-out select-none">Start Deploying</a>
-                            <a href="/" className="p-3 md:px-5 text-xs lg:text-sm font-medium border-1 hover:bg-white/15 rounded-3xl transition-all delay-75 duration-100 ease-in-out select-none">Talk to an Expert</a>
+                            <a href="/" className="px-2 py-3 text-xs lg:text-sm font-medium border-1 hover:bg-white/15 rounded-3xl transition-all delay-75 duration-100 ease-in-out select-none">Talk to an Expert</a>
                         </div>
                     </div>
                     <div className="hidden md:flex p-5 md:p-8 lg:p-15 w-full md:w-1/3 md:h-60">
@@ -42,12 +42,3 @@ function Section3() {
 }
 
 export default Section3
-/*
-    < div className = "text-2xl text-white/50" >
-        <h2><b className="text-white">Ready to deploy?</b> Start building with a free account. Speak to an expert for your <b className='text-blue-500'>Pro</b> or <strong className="text-purple-500">Enterprise</strong>  needs.</h2>
-</div >
-    <div className="flex gap-5">
-        <Button variant={"default"} className="text-md rounded-2xl">Start Deploying</Button>
-        <Button variant={"outline"} className=" text-md rounded-2xl">Talk to an Expert</Button>
-
-    </div> */

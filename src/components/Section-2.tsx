@@ -29,7 +29,7 @@ function Section2() {
                             <strong className="text-white">Go ahead, deploy on Friday.</strong> Safely manage releases with automated deployments and instant rollbacks.</p>
                     </div>
                     <div className="flex flex-col gap-40">
-                        <div className="flex items-center gap-3 lg:gap-6 w-fit border-1 rounded-xl p-3 select-none">
+                        <div className="flex items-center gap-3 lg:gap-6 w-fit border-1 rounded-md md:rounded-xl px-1 py-2 md:p-3 select-none">
                             <div>
                                 <div className="flex justify-between items-center w-full text-white/50">
                                     <p className='hidden lg:flex text-xs'>vercel-site/<strong className="text-sm text-white">jvjb4ynna</strong>
@@ -46,7 +46,7 @@ function Section2() {
                                 <span className="text-xs">98</span>
                             </div>
                         </div>
-                        <div className="flex items-center ml-auto gap-3 lg:gap-6 w-fit border-white/20 border-dashed border-1 rounded-xl p-3 select-none">
+                        <div className="flex items-center ml-auto gap-3 lg:gap-6 w-fit border-white/20 border-dashed border-1 rounded-md md:rounded-xl px-1 py-2 md:p-3 select-none">
                             <div>
                                 <div className="flex justify-between items-center w-full text-white/50">
                                     <p className='hidden lg:flex text-xs'>vercel-site/<strong className="text-sm text-white">gigj178pv</strong>

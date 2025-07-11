@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800%7CCaveat:regular,500,600,700');
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -99,6 +101,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-Inter: "Inter", "sans-serif"
 }
 
 .dark {

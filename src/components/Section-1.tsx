@@ -8,13 +8,13 @@ function Section1() {
                         <p className="lg:text-2xl font-semibold mt-3 md:mt-5">From localhost to https, in seconds. Deploy from Git or your CLI.</p>
                     </div>
                     <div>
-                        <div className="w-80 rounded-md border-2 select-none">
+                        <div className="md:w-80 rounded-md border-2 select-none">
                             <div className="flex gap-1 p-2">
                                 <div className="rounded-full bg-white/15 p-1"></div>
                                 <div className="rounded-full bg-white/15 p-1"></div>
                                 <div className="rounded-full bg-white/15 p-1"></div>
                             </div>
-                            <div className="flex flex-col gap-1 text-xs text-nowrap px-3 pb-3 bg-gradient-to-r from-white/75 via-white/50 to-white/5 bg-clip-text text-transparent">
+                            <div className="flex font-mono flex-col gap-1 text-xs text-nowrap px-3 pb-3 bg-gradient-to-r from-white/75 via-white/50 to-white/5 bg-clip-text text-transparent">
                                 <p>1 &nbsp; console.log("Hello Susie...");</p>
                                 <p>{`2 \u00A0 if(true){`}</p>
                                 <p>3 &nbsp; console.log("Happy Birth Day!!!");</p>
@@ -24,14 +24,14 @@ function Section1() {
                                 <p className="bg-gradient-to-r from-white/10 via-white/5 to-transparent">{`7 \u00A0 })();|`}</p>
                             </div>
                         </div>
-                        <div className="relative -top-6 left-5 lg:left-24 w-80 h-45 rounded-md border-2 backdrop-brightness-0 overflow-y-hidden">
+                        <div className="relative -top-6 left-5 lg:left-24 md:w-80 h-45 max-w-65 md:max-w-none rounded-md border-2 backdrop-brightness-0 overflow-y-hidden">
                             <div className="flex select-none">
                                 <div className="flex gap-1 p-2">
                                     <div className="rounded-full bg-red-500 p-1"></div>
                                     <div className="rounded-full bg-blue-500 p-1"></div>
                                     <div className="rounded-full bg-green-500 p-1"></div>
                                 </div>
-                                <p className="flex items-center font-medium text-xs text-white/75 ml-18">vercel.com</p>
+                                <p className="flex items-center font-semibold text-xs text-white/75 ml-18">vercel.com</p>
                             </div>
                             <div className="flex flex-col bg-white/5 text-white/50 items-center justify-center border-1 mx-2 my-1 select-none">
                                 <p className="text-2xl w-fit mt-5 ">Welcome to Shopify</p>

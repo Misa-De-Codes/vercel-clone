@@ -8,7 +8,7 @@ function Section1() {
                         <p className="lg:text-2xl font-semibold mt-3 md:mt-5">From localhost to https, in seconds. Deploy from Git or your CLI.</p>
                     </div>
                     <div>
-                        <div className="md:w-80 rounded-md border-2 select-none">
+                        <div className="md:w-80 rounded-md border-2 mr-5 md:mr-auto select-none">
                             <div className="flex gap-1 p-2">
                                 <div className="rounded-full bg-white/15 p-1"></div>
                                 <div className="rounded-full bg-white/15 p-1"></div>

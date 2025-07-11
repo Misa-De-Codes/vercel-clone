@@ -25,17 +25,18 @@ function Section1() {
                             </div>
                         </div>
                         <div className="relative -top-6 left-5 lg:left-24 md:w-80 h-45 max-w-65 md:max-w-none rounded-md border-2 backdrop-brightness-0 overflow-y-hidden">
-                            <div className="flex select-none">
-                                <div className="flex gap-1 p-2">
+                            <div className="relative flex justify-center items-center p-1 select-none">
+                                <div className="absolute left-2 flex gap-1">
                                     <div className="rounded-full bg-red-500 p-1"></div>
                                     <div className="rounded-full bg-blue-500 p-1"></div>
                                     <div className="rounded-full bg-green-500 p-1"></div>
                                 </div>
-                                <p className="flex items-center font-semibold text-xs text-white/75 ml-18">vercel.com</p>
+                                <p className="flex items-center font-semibold text-xs text-white/75 ">vercel.com</p>
                             </div>
                             <div className="flex flex-col bg-white/5 text-white/50 items-center justify-center border-1 mx-2 my-1 select-none">
                                 <p className="text-2xl w-fit mt-5 ">Welcome to Shopify</p>
                                 <p className="text-xs w-fit text-center mt-2"> we sell not because we love you but because we love money</p>
+                                <div className="absolute top-25 rounded-full animate-bounce p-5 bg-yellow-500/20 -z-1"></div>
                                 <div className="relative top-5 p-10 bg-white/10 rotate-45"></div>
                                 <div className="relative -top-12 left-10 p-10 bg-white/10 rotate-45"></div>
                                 <div className="relative -top-31 right-10 p-10 bg-white/10 rotate-45"></div>
